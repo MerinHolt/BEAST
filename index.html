@@ -2,17 +2,36 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<title>BEAST — каталог модов</title>
-<meta http-equiv="refresh" content="0; url=./site/">
-<link rel="canonical" href="./site/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BEAST — репозиторий данных</title>
 <style>
   body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
-    background:#0a0a08;color:#f2f0ea;font:600 16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    background:#0a0a08;color:#e8e6df;font:500 15px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  main{max-width:640px;padding:32px 28px}
+  h1{font-size:22px;margin:0 0 14px;color:#7ec96b}
+  code{background:#16150f;padding:2px 7px;border-radius:5px;color:#d7d4c9}
   a{color:#7ec96b}
+  ul{padding-left:20px}li{margin:6px 0}
+  .dim{color:#8b887c;font-size:13px;margin-top:18px}
 </style>
 </head>
 <body>
-<p>Каталог сборки BEAST — <a href="./site/">открыть</a></p>
-<script>location.replace('./site/');</script>
+<main>
+<h1>BEAST — источник данных программы</h1>
+<p>Этот репозиторий — источник данных для установщика BEAST:
+он скачивает каталог модов, проверяет версию сборки и докачивает выбранные моды.</p>
+<ul>
+  <li>Каталог модов: <code>site/manifest.json</code></li>
+  <li>Версия и ссылки: <code>site/update.json</code></li>
+  <li>Моды (zip): <code>site/mods/&lt;id&gt;.zip</code></li>
+</ul>
+<p>Программа сама обращается к этим файлам через зеркала:</p>
+<ul>
+  <li><a href="https://raw.githubusercontent.com/MerinHolt/BEAST/main/site/manifest.json">raw.githubusercontent.com</a></li>
+  <li><a href="https://cdn.jsdelivr.net/gh/MerinHolt/BEAST@main/site/manifest.json">cdn.jsdelivr.net</a></li>
+  <li><a href="https://merinholt.github.io/BEAST/site/manifest.json">merinholt.github.io</a></li>
+</ul>
+<p class="dim">Исходники программы: <a href="https://github.com/MerinHolt/BEAST-Private">github.com/MerinHolt/BEAST-Private</a></p>
+</main>
 </body>
 </html>

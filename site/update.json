@@ -1,0 +1,22 @@
+{
+  "packName": "BEAST",
+  "packVersion": "1.0.0",
+  "minGameVersion": "1.45.0.0",
+  "author": "BEAST Team",
+  "date": "2026-10-03",
+  "mods": 60,
+  "size": 38897611,
+  "mirrors": [
+    "https://raw.githubusercontent.com/MerinHolt/BEAST/main/site/",
+    "https://cdn.jsdelivr.net/gh/MerinHolt/BEAST@main/site/",
+    "https://merinholt.github.io/BEAST/"
+  ],
+  "release": "https://github.com/MerinHolt/BEAST/releases/latest",
+  "notes": "",
+  "links": {
+    "discord": "https://discord.gg/K2mR7agmxJ",
+    "telegram": "https://t.me/beast_modpack",
+    "site": "",
+    "donate": ""
+  }
+}

@@ -1,0 +1,1631 @@
+{
+  "_type": "beast-pack",
+  "packId": "BEAST",
+  "packName": "BEAST",
+  "packVersion": "1.0.0",
+  "author": "BEAST Team",
+  "homepage": "",
+  "game": "WOT_LESTA",
+  "targetGame": "Мир танков (Lesta Games)",
+  "minGameVersion": "1.45.0.0",
+  "forumThread": "",
+  "builtAt": "2026-10-03T02:07:09.474Z",
+  "builder": "BEAST Build Tool",
+  "diyIncluded": false,
+  "mods": [
+    {
+      "id": "alphasave1-showvehicle",
+      "name": "Показывать танк в ангаре (ShowVehicle)",
+      "author": "alphasave1",
+      "version": "1.1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Открывает карточку танка в ангаре сразу в боевом виде, без лишних переходов.",
+      "description": "Ускоряет просмотр техники: карточка танка открывается сразу с моделью в боевом виде. Работает в клиенте Lesta (Mir Tankov) версии 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 4005,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "aslain-mute-tier11-mechanic-effects",
+      "name": "Отключение звуков механик 11 уровня (Mute Tier11)",
+      "author": "Aslain",
+      "version": "2.1.1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Убирает механические звуки активации механиков танков 11 уровня.",
+      "description": "Отключает отвлекающие звуковые эффекты механиков 11 уровня. Файл собран из комплекта Aslain и адаптирован под клиент Lesta 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 3515264,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "blowup-sound",
+      "name": "Звук подрыва (blowupSound)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Заменяет звук уничтожения танка на более отчётливый.",
+      "description": "Новый звук подрыва танка, лучше слышен в бою поверх остальных эффектов. Файл из аудиораздела Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 111460,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "button-replacer",
+      "name": "Замена кнопок интерфейса (Button Replacer)",
+      "author": "PYmods",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "ui"
+      ],
+      "summary": "Переносит и переименовывает кнопки интерфейса по своему вкусу.",
+      "description": "Убирает лишние кнопки и ставит нужные в удобные места. Мод PYmods, требует общее ядро OpenModsCore.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "openmodscore"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 11488,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "circle-15m",
+      "name": "Круг 15 м на миникарте",
+      "author": "Community",
+      "version": "1.0",
+      "category": "minimap",
+      "tags": [
+        "armor",
+        "minimap"
+      ],
+      "summary": "Рисует на миникарте круг 15 метров вокруг своего танка.",
+      "description": "Помогает держать дистанцию и оценивать зоны обстрела. Отдельный независимый мод без внешних библиотек.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 128365,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "enemy-fire",
+      "name": "Звук выстрелов противника (enemy_fire)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Добавляет отдельный звук выстрела видимого противника.",
+      "description": "Помогает на слух определить направление огня противника. Входит в аудиоблок Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 106714,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "fast-reconnect",
+      "name": "Быстрое переподключение (FastReconnect)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Сокращает паузу при обрыве связи и переподключении к бою.",
+      "description": "Возвращает в бой без долгого экрана ожидания после разрыва соединения. Файл совпадает по размеру с эталоном Armor ModPack (2,5 КБ).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 2567,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "gambiter-guiflash",
+      "name": "Мигание элементов интерфейса (GUIFlash)",
+      "author": "gambiter",
+      "version": "0.6.3",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "ui"
+      ],
+      "summary": "Подсвечивает миганием важные элементы интерфейса.",
+      "description": "Привлекает внимание к готовности орудия, заряженному снаряжению и другим событиям. Библиотека из блока Libs.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 58154,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "gun-decals",
+      "name": "Следы выстрелов на стволе (gunDecals)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual"
+      ],
+      "summary": "Добавляет потёртости и следы выстрелов на стволе орудия.",
+      "description": "Детализирует внешний вид орудия в бою и в ангаре. Взята актуальная версия вместо 1.43 из исходного установщика.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 534178,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "gun-reloaded",
+      "name": "Звук перезарядки орудия (gun_reloaded)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Чёткий звук завершения перезарядки орудия.",
+      "description": "Убирает неоднозначность: перезаряженное орудие слышно сразу. Леста-версия аудиофайла.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 186850,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "hawg-weather",
+      "name": "Погода и удаление тумана (Hawg Weather)",
+      "author": "Hawg",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual",
+        "weather"
+      ],
+      "summary": "Меняет погодные сцены и убирает навязчивый дальний туман.",
+      "description": "Комплект погодных пресетов с чистым горизонтом. Соответствует файлу remove_fog из подборки Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 732615,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "i18n-loader",
+      "name": "Загрузчик переводов (i18n Loader)",
+      "author": "PYmods",
+      "version": "1.0",
+      "category": "localization",
+      "tags": [
+        "armor",
+        "localization"
+      ],
+      "summary": "Подключает внешние переводы интерфейса для модов PYmods.",
+      "description": "Позволяет переключать язык описаний и подписей модов. Мод PYmods, требует общее ядро OpenModsCore.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "openmodscore"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 3167,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "icons-angar-tree",
+      "name": "Иконки в дереве прокачки (angar tree icons)",
+      "author": "Community",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "hangar",
+        "icons"
+      ],
+      "summary": "Круглые иконки машин в дереве прокачки и ангаре.",
+      "description": "Заменяет квадратные значки на аккуратные круглые. Крупный ресурс (6,9 МБ), совпадает с эталоном Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 7239179,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-modssettingsapi",
+      "name": "Библиотека настроек izeberg (ModsSettingsAPI)",
+      "author": "izeberg",
+      "version": "1.7.0",
+      "category": "other",
+      "tags": [
+        "armor",
+        "lib"
+      ],
+      "summary": "Общая библиотека настроек для модов izeberg.",
+      "description": "Подключается автоматически, когда выбирается любой мод izeberg. Лежит в блоке Libs комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 162084,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-reload-timer",
+      "name": "Таймер перезарядки (izeberg Reload Timer)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Показывает оставшееся время перезарядки рядом с прицелом.",
+      "description": "Цифровой таймер поползунка, понятнее стандартного индикатора. Требует общую библиотеку настроек izeberg.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "izeberg-modssettingsapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 21056,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-repair",
+      "name": "Подсказка ремонта (izeberg Repair)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Подсказывает, когда пора ставить ремонт и что чинить в первую очередь.",
+      "description": "Отмечает критически повреждённые модули и предлагаемое время восстановления. Требует общую библиотеку настроек izeberg.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "izeberg-modssettingsapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 39872,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-spotted",
+      "name": "Уведомления о засвете (izeberg Spotted)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Показывает, когда вас засветили и когда вы ушли с радара.",
+      "description": "Компактные метки засвета и потери засвета на экране. Требует общую библиотеку настроек izeberg.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "izeberg-modssettingsapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 30630,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-vehicle-exp",
+      "name": "Опыт техники в ангаре (izeberg Vehicle EXP)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Выводит накопленный опыт техники прямо в списке ангаре.",
+      "description": "Удобно планировать бои без открытия карточки танка. Взята версия 1.45 из локального клиента.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "izeberg-modssettingsapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 54431,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-autoequipmentreturn",
+      "name": "Автовозврат снаряжения (Kurzdor)",
+      "author": "Kurzdor",
+      "version": "1.4.1",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Возвращает прежнее снаряжение после снятия снаряжения по ошибке.",
+      "description": "Убирает рутину «забыл снять — потерял настройку». Файл Kurzdor из комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 88771,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-battleequipment",
+      "name": "Снаряжение в бою (Kurzdor Battle Equipment)",
+      "author": "Kurzdor",
+      "version": "3.10.00",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Быстрый доступ к снаряжению и подсказки по его применению в бою.",
+      "description": "Панель снаряжения с понятной индикацией готовности. Установлена версия 3.10.00 из локального клиента 1.45 (вместо 3.6.03 в исходном списке).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 191766,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-outliningcolors",
+      "name": "Цветная обводка силуэтов (Kurzdor Outlining Colors)",
+      "author": "Kurzdor",
+      "version": "1.6.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual"
+      ],
+      "summary": "Задаёт цвет обводки силуэтов в зависимости от ситуации.",
+      "description": "Легче отличать свои и чужие в перегрузе. Самостоятельный мод Kurzdor без внешних библиотек.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 205363,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "mod-wb-auto-claim-clan-reward",
+      "name": "Автосбор клановой награды (WB Auto Claim)",
+      "author": "Wargaming",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "clan"
+      ],
+      "summary": "Автоматически забирает доступную клановую награду за вход в игру.",
+      "description": "Снимает ручное подтверждение получения клановой награды. Часть комплекта Aslain, файл перенесён без изменений.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 4544,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "openmodscore",
+      "name": "Ядро модов PYmods (OpenModsCore)",
+      "author": "PYmods",
+      "version": "1.0",
+      "category": "other",
+      "tags": [
+        "armor",
+        "lib"
+      ],
+      "summary": "Общее ядро для модов семейства PYmods.",
+      "description": "Библиотека, без которой моды PYmods не стартуют. Подключается автоматически при выборе любого мода PYmods.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 80161,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "pademinune-armor-calculator",
+      "name": "Калькулятор пробития брони (Armor Penetration Calculator)",
+      "author": "pademinune",
+      "version": "1.3.1",
+      "category": "aim",
+      "tags": [
+        "armor",
+        "aim"
+      ],
+      "summary": "Считает вероятность пробития для выбранной точки и снаряда.",
+      "description": "Открывается из ангара, показывает шансы пробития по углам и дистанции. Размер файла совпадает с эталоном Armor ModPack (20 КБ).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 20393,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "panikaxa-quick-demount",
+      "name": "Быстрый сброс снаряжения (Quick Demount)",
+      "author": "panikaxa",
+      "version": "2.2.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Снимает снаряжение одной кнопкой без лишних подтверждений.",
+      "description": "Ускоряет перекомплектование между боями. Независимый мод panikaxa.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 148981,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-gun-constraints",
+      "name": "Ограничения угла орудия (Gun Constraints)",
+      "author": "Phantasm",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual",
+        "aim"
+      ],
+      "summary": "Показывает границы углов горизонтального наведения орудия.",
+      "description": "Помогает чувствовать пределы поворота башни и не упираться в ограничитель. Взята версия из леста-пакета 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 68635,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-hangarswitcher",
+      "name": "Переключатель ангаров (Hangar Switcher)",
+      "author": "Phantasm",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Быстрое переключение между установленными ангаровыми модами.",
+      "description": "Меняет оформление ангара в один клик. Самостоятельный мод Phantasm.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 51432,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-info-panel",
+      "name": "Информационная панель (Info Panel)",
+      "author": "Phantasm",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Дополнительная панель со сводкой по бою и технике.",
+      "description": "Компактная информация о цели, снарядах и происходящем в бою. Файл из общего блока модов комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 105144,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-rescale-reticle",
+      "name": "Масштабирование прицела (Rescale Reticle)",
+      "author": "Phantasm",
+      "version": "1.0",
+      "category": "aim",
+      "tags": [
+        "armor",
+        "aim",
+        "sight"
+      ],
+      "summary": "Позволяет менять размер прицела шире стандартных пределов.",
+      "description": "Настраивает кольцо и маркеры под свой вкус. Файл из блока Pruszko комплекта.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 27117,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-battlehits",
+      "name": "Просмотр попаданий (Battle Hits)",
+      "author": "Poliroid",
+      "version": "2.2.6",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Просмотр карты попаданий после боя прямо из клиента.",
+      "description": "Показывает, куда именно попали и сколько пробития было в каждом выстрелу. Доступна версия 2.2.6 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "poliroid-modslistapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 29745929,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-frames-limiter",
+      "name": "Ограничитель кадров (Frames Limiter)",
+      "author": "Poliroid",
+      "version": "4.0.2",
+      "category": "performance",
+      "tags": [
+        "armor",
+        "performance"
+      ],
+      "summary": "Ограничивает частоту кадров в ангаре и бою для снижения нагрузки.",
+      "description": "Помогает удержать температуру и шум ноутбука. Файл из общего блока модов комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "poliroid-modslistapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1260787,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-modslistapi",
+      "name": "Библиотека списка модов (ModsListAPI)",
+      "author": "Poliroid",
+      "version": "1.6.01",
+      "category": "other",
+      "tags": [
+        "armor",
+        "lib"
+      ],
+      "summary": "Общая библиотека списка модов для модов Poliroid.",
+      "description": "Подключается автоматически при выборе модов Poliroid. Лежит в блоке Libs комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 79776,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-netradio",
+      "name": "Интернет-радио в ангаре (Net Radio)",
+      "author": "Poliroid",
+      "version": "1.1",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio",
+        "hangar"
+      ],
+      "summary": "Сетевое радио в ангаре со списком станций и переключением.",
+      "description": "Работает на леста-сборке (netradio_1.1_lesta). Размер файла совпадает с эталоном Armor ModPack (~984 КБ).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1007980,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-pmod",
+      "name": "PMOD — расширенный интерфейс (Poliroid)",
+      "author": "Poliroid",
+      "version": "1.81.14",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud",
+        "ui"
+      ],
+      "summary": "Набор улучшений интерфейса: камера, навигация, подсказки, уровни.",
+      "description": "Собирает в себе десятки мелких доработок HUD и ангара. Установлена версия 1.81.14 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "poliroid-modslistapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1208515,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-replaysmanager",
+      "name": "Менеджер повторов (Replays Manager)",
+      "author": "Poliroid",
+      "version": "3.8.5",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Удобный список повторов с фильтрами и быстрым запуском.",
+      "description": "Сортировка по дате, результату и технике, быстрый переход к нужному повтору. Взята версия из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "poliroid-modslistapi"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 857554,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "pruszko-distance-marker",
+      "name": "Метка дистанции до цели (Distance Marker)",
+      "author": "Pruszko",
+      "version": "2.2.3",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud",
+        "aim"
+      ],
+      "summary": "Показывает расстояние до прицельной точки прямо в бою.",
+      "description": "Убирает необходимость прикидывать дистанцию на глаз. Файл Pruszko из корня комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 114795,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "starry-sky",
+      "name": "Звёздное небо (Starry Sky)",
+      "author": "ProTanki",
+      "version": "1.0",
+      "category": "performance",
+      "tags": [
+        "armor",
+        "visual",
+        "performance"
+      ],
+      "summary": "Заменяет ночное небо на звёздное, мягче и легче для кадра.",
+      "description": "Красивое звёздное небо вместо пустого ночного неба. Отдельный мод, визуально парный «Облачному небу».",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 10499464,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-gunmarkscalc",
+      "name": "Калькулятор отметок попаданий (GunMarks Calc)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Считает, сколько боёв нужно до следующей отметки мастерства.",
+      "description": "Показывает прогресс по отметкам 1–3 и прогноз по темпу прокачки. Мод семейства tv.* из общего блока модов комплекта.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 264405,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-randomtank",
+      "name": "Случайный танк для боя (Random Tank)",
+      "author": "ProTanki",
+      "version": "8.1.01",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Подбирает случайную пригодную для боя машину из ангарa.",
+      "description": "Ускоряет вход в бой, если решение о технике не принципиально. Доступна версия 8.1.01 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 44918,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-reductioninfo",
+      "name": "Информация о редукции (Reduction Info)",
+      "author": "ProTanki",
+      "version": "8.1.01",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud",
+        "aim"
+      ],
+      "summary": "Показывает фактическую редукцию урона по выбранной цели.",
+      "description": "Подсказывает, куда бить, учитывая угол и дистанцию. Доступна версия 8.1.01 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 66225,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-saveshot",
+      "name": "Безопасный выстрел (Safe Shot)",
+      "author": "ProTanki",
+      "version": "8.1.01",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud",
+        "aim"
+      ],
+      "summary": "Не даёт выстрелить по союзнику, закрывающему цель.",
+      "description": "Блокирует или подсвечивает опасный выстрел через союзника. Доступна версия 8.1.01 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 54355,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-smartequipment",
+      "name": "Умное снаряжение (Smart Equipment)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "hangar"
+      ],
+      "summary": "Предлагает и быстро ставит оптимальное снаряжение под бой.",
+      "description": "Подбирает набор под роль техники и экономит время перед боем. Мод семейства tv.* из общего блока модов комплекта.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 311026,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-spotted",
+      "name": "Уведомления о засвете (Spotted)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Метки засвета и ухода с радара в бою.",
+      "description": "Показывает, когда вас видят, и когда вы снова в тени. Мод семейства tv.* из общего блока модов комплекта.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 52773,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-stuff",
+      "name": "Общие файлы модов tv.* (Stuff)",
+      "author": "ProTanki",
+      "version": "8.1.22",
+      "category": "other",
+      "tags": [
+        "armor",
+        "lib"
+      ],
+      "summary": "Общие ресурсы и библиотека модов семейства tv.*.",
+      "description": "Подключается автоматически при выборе любого мода tv.*. Доступна версия 8.1.22 из локального клиента 1.45 (вместо 8.1.09).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 7676405,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-armorhit",
+      "name": "Попадания в танк",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает эффекты попаданий в танк.",
+      "description": "Отключает эффекты попаданий в танк. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 18261,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-clouds",
+      "name": "Отключение облаков",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает облака на небе.",
+      "description": "Отключает облака на небе. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 41883,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-exhaust",
+      "name": "Дым из выхлопной трубы",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает дым из выхлопной трубы.",
+      "description": "Отключает дым из выхлопной трубы. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 43330,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-explosion",
+      "name": "Уничтожение танка",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает эффекты уничтожения танка.",
+      "description": "Отключает эффекты уничтожения танка. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 13558,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-graphics",
+      "name": "Пониженные настройки графики",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Понижает настройки графики игры.",
+      "description": "Понижает настройки графики игры. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 9022,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-groundhit",
+      "name": "Взрывы снарядов",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает эффекты взрывов снарядов.",
+      "description": "Отключает эффекты взрывов снарядов. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 52514,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-shots",
+      "name": "Дым и пламя при выстреле",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает дым и пламя при выстреле.",
+      "description": "Отключает дым и пламя при выстреле. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 43376,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-skyfog",
+      "name": "Туман на картах",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Удаляет туман на картах.",
+      "description": "Удаляет туман на картах. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 897611,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tw-smokedead",
+      "name": "Дым уничтоженных танков",
+      "author": "BEAST Team",
+      "version": "1.45.0.0",
+      "category": "performance",
+      "tags": [
+        "performance",
+        "fps"
+      ],
+      "summary": "Отключает дым из уничтоженных танков.",
+      "description": "Отключает дым из уничтоженных танков. Ставится в папку mods обнаруженной версии игры.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "",
+      "diy": false,
+      "size": 8808,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "ut-announcer",
+      "name": "Объявления смертей (UT Announcer)",
+      "author": "PYmods",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Голосовые объявления об уничтожении техники.",
+      "description": "Пышный анонсер фрагов в стиле Unreal Tournament. Мод PYmods, требует общее ядро OpenModsCore.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "openmodscore"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 71553,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "voice-overrider",
+      "name": "Замена голосовых сообщений (Voice Overrider)",
+      "author": "PYmods",
+      "version": "2.3.5",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "audio"
+      ],
+      "summary": "Заменяет стандартные голосовые сообщения на альтернативный набор.",
+      "description": "Другой голос оповещений: шестое чувство, повреждения, готовность. Мод PYmods, требует общее ядро OpenModsCore.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "openmodscore"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 84540,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wotinspector-battle-assistant",
+      "name": "Ассистент артиллерии (Battle Assistant)",
+      "author": "WoT Inspector",
+      "version": "2.6.1",
+      "category": "aim",
+      "tags": [
+        "armor",
+        "aim",
+        "arty"
+      ],
+      "summary": "Тактический обзор для самоходных орудий при наведении.",
+      "description": "Упрощает прицеливание с высоты и помогает читать рельеф. Файл WoT Inspector из корня комплекта Armor ModPack.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 471087,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wotstat",
+      "name": "WotStat — статистика боёв онлайн",
+      "author": "WotStat",
+      "version": "1.6.4.0",
+      "category": "qol",
+      "tags": [
+        "stats",
+        "analytics",
+        "session",
+        "wotstat"
+      ],
+      "summary": "Считает ваши бои (выстрелы, попадания, урон, результаты) и показывает разбор на официальном сайте WotStat.",
+      "description": "WotStat — открытый мод для «Мира танков», который ведёт сессионную статистику прямо в бою: попадания и промахи, нанесённый и полученный урон, результаты боёв — и отправляет данные на сервер проекта.\n\nРазбор боёв, динамика по картам и общая статистика доступны на официальном сайте WotStat. Сам мод ничего не рисует на экране и не мешает игре — вся информация собирается в фоне; виджеты с цифрами — это отдельный мод WotStat (виджеты интерфейса).\n\nФайл mod.wotStat_1.6.4.0.mtmod устанавливается в mods/<версия игры>/. Проект открытый и выпускается и для «Мира танков», и для World of Tanks.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 254557,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wotstat-widgets",
+      "name": "WotStat — виджеты интерфейса (HUD)",
+      "author": "WotStat",
+      "version": "2.1.0",
+      "category": "hud",
+      "tags": [
+        "widgets",
+        "interface",
+        "hud",
+        "wotstat"
+      ],
+      "summary": "Плавающие виджеты в бою и ангаре: подбор оборудования, рейтинг по картам, ресурсы аккаунта, счётчики боя.",
+      "description": "Мод wotstat-widgets расширяет экран набора перетаскиваемыми веб-виджетами — в бою и в ангаре.\n\nЧто входит в набор:\n— подбор оборудования: рекомендации по каждому слоту с отметками «ставить / не ставить»;\n— рейтинг WotStat: ваш балл и изменение по каждой карте;\n— ресурсы аккаунта: золото, кредиты, свободный опыт, премиум, кристаллы, Дар Востока, Редкий гость и счётчики коллекций;\n— счётчики событий в бою: фраги, урон и другие показатели;\n— сводка по танкам: бои, место в рейтинге, текущая и лучшая серии;\n— любые сторонние виджеты: добавление по URL, коллекция и демо-виджеты из меню «Добавить виджет».\n\nВиджеты можно перетаскивать, менять размер, сворачивать (расчёт продолжается, картинка прячется), фиксировать от случайного сдвига и по-разному располагать в бою и в ангаре. Встроенный data-provider отдаёт виджетам данные игры без сторонних модов.\n\nФайл wotstat.widgets_2.1.0.mtmod устанавливается в mods/<версия игры>/. Только 64-разрядные системы. Проект открытый.",
+      "preview": "preview.jpg",
+      "previews": [
+        "preview.jpg",
+        "widget-1.png",
+        "widget-2.png",
+        "widget-3.png",
+        "widget-4.png",
+        "widget-5.png"
+      ],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 336874,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "xvm",
+      "name": "XVM — ядро",
+      "author": "XVM Team",
+      "version": "13.1.0.0090",
+      "category": "xvm",
+      "tags": [
+        "xvm",
+        "stats",
+        "wn8",
+        "minimap",
+        "hangar"
+      ],
+      "summary": "Базовый XVM: статистика и шансы на победу, маркеры, миникарта, карусель, панели боя.",
+      "description": "Ядро XVM (оленемер) для «Мира танков»: сам мод com.modxvm.xvm, конфиги по умолчанию (res_mods/configs/xvm) и общие ресурсы — иконки кланов, маркеры, переводы, звук.\n\nСтавится в три места: mods/1.45.0.0, res_mods/configs/xvm, res_mods/mods/shared_resources. Ядро скрыто из списка: оно подключается автоматически, как только отмечена хоть одна опция XVM ниже в разделе XVM.\n\nЧто даёт: WN8 и цвета игроков, шансы на победу в ушах и на экране загрузки, маркеры над танками, лог урона, расширенная миникарта, карусель танков, панели боя и десятки настроек интерфейса.\n\nДля включения статистики активируйте сервисы на официальном сайте XVM: «Настройки» → «Активировать сервисы».",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "xvm",
+      "diy": false,
+      "size": 11747140,
+      "kinds": [
+        "mods",
+        "res_mods"
+      ]
+    },
+    {
+      "id": "xvm-crashfix",
+      "name": "XFW — крэшфикс",
+      "author": "XFW / XVM Team",
+      "version": "12.0.0",
+      "category": "xvm",
+      "tags": [
+        "xvm",
+        "xfw",
+        "crashfix",
+        "stability"
+      ],
+      "summary": "Патч стабильности: меньше вылетов клиента с установленным XVM.",
+      "description": "Мод com.modxvm.xfw.crashfix — защита от вылетов клиента, которые даёт XVM (и моды поверх него).\n\nСтавится в mods/1.45.0.0. Рекомендуется вместе с ядром XVM: карточка «XFW — крэшфикс» тянет за собой ядро, если оно ещё не выбрано.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "xvm"
+      ],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": true,
+      "group": "xvm",
+      "diy": false,
+      "size": 554595,
+      "kinds": [
+        "mods"
+      ]
+    }
+  ]
+}

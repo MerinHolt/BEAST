@@ -9,7 +9,7 @@
   "targetGame": "Мир танков (Lesta Games)",
   "minGameVersion": "1.45.0.0",
   "forumThread": "",
-  "builtAt": "2026-10-03T08:50:53.120Z",
+  "builtAt": "2026-10-03T11:57:22.566Z",
   "builder": "Outplay Build Tool",
   "diyIncluded": false,
   "mods": [
@@ -196,6 +196,32 @@
       ]
     },
     {
+      "id": "armor-blowup-sound",
+      "name": "Звук подрыва танка",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Звук подрыва танка. Из сборки Armor ModPack. Размер: 0.12 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 126035,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "armor-configs",
       "name": "Конфиги модов (Armor ModPack)",
       "author": "Armor ModPack",
@@ -295,6 +321,58 @@
       "group": "",
       "diy": false,
       "size": 1914,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-enemy-fire-sound",
+      "name": "Звук выстрела противника",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Звук выстрела противника. Из сборки Armor ModPack. Размер: 0.07 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 68334,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-gun-reloaded-sound",
+      "name": "Звук перезарядки орудия",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Звук перезарядки орудия. Из сборки Armor ModPack. Размер: 0.46 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 484268,
       "kinds": [
         "mods"
       ]
@@ -2715,7 +2793,8 @@
       "previews": [],
       "requires": [],
       "conflicts": [
-        "crosshairs-api"
+        "crosshairs-api",
+        "crosshairs-api-1-1-mt"
       ],
       "default": false,
       "recommended": false,
@@ -2723,6 +2802,34 @@
       "group": "",
       "diy": false,
       "size": 69748,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshairs-api-1-1-mt",
+      "name": "API прицелов 1.1 (MT)",
+      "author": "MT ProTanki",
+      "version": "1.1",
+      "category": "aim",
+      "tags": [
+        "mt",
+        "aim"
+      ],
+      "summary": "Из сборки MT ProTanki. Файлов: 1.",
+      "description": "API прицелов 1.1 (MT). Из сборки MT ProTanki. Размер: 0.07 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "crosshairs-api-1-1"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 69297,
       "kinds": [
         "mods"
       ]
@@ -3549,13 +3656,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "hawg-weather-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 732615,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "hawg-weather-armor",
+      "name": "Погода Hawg (Armor)",
+      "author": "Hawg",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Погода Hawg (Armor). Из сборки Armor ModPack. Размер: 0.60 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "hawg-weather"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 629644,
       "kinds": [
         "mods"
       ]
@@ -3738,13 +3875,43 @@
       "requires": [
         "izeberg-modssettingsapi"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "izeberg-reload-timer-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 21056,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-reload-timer-armor",
+      "name": "Таймер перезарядки (izeberg, Armor)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Таймер перезарядки (izeberg, Armor). Из сборки Armor ModPack. Размер: 0.02 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "izeberg-reload-timer"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 22771,
       "kinds": [
         "mods"
       ]
@@ -3794,13 +3961,43 @@
       "requires": [
         "izeberg-modssettingsapi"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "izeberg-spotted-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 30630,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-spotted-armor",
+      "name": "Засвет противника (izeberg, Armor)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Засвет противника (izeberg, Armor). Из сборки Armor ModPack. Размер: 0.03 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "izeberg-spotted"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 31423,
       "kinds": [
         "mods"
       ]
@@ -3822,13 +4019,43 @@
       "requires": [
         "izeberg-modssettingsapi"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "izeberg-vehicle-exp-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 54431,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "izeberg-vehicle-exp-armor",
+      "name": "Опыт машины (izeberg, Armor)",
+      "author": "izeberg",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Опыт машины (izeberg, Armor). Из сборки Armor ModPack. Размер: 0.05 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "izeberg-vehicle-exp"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 54244,
       "kinds": [
         "mods"
       ]
@@ -4058,13 +4285,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "kurzdor-autoequipmentreturn-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 88771,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-autoequipmentreturn-armor",
+      "name": "Авто-возврат снаряжения (Armor)",
+      "author": "kurzdor",
+      "version": "1.4.1",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Авто-возврат снаряжения (Armor). Из сборки Armor ModPack. Размер: 0.09 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "kurzdor-autoequipmentreturn"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 89836,
       "kinds": [
         "mods"
       ]
@@ -4110,13 +4367,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "kurzdor-outliningcolors-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 205363,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-outliningcolors-armor",
+      "name": "Цвета контуров (kurzdor, Armor)",
+      "author": "kurzdor",
+      "version": "1.6.0",
+      "category": "visual",
+      "tags": [
+        "armor",
+        "visual"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Цвета контуров (kurzdor, Armor). Из сборки Armor ModPack. Размер: 0.20 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "kurzdor-outliningcolors"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 204564,
       "kinds": [
         "mods"
       ]
@@ -5020,13 +5307,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "openmodscore-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 80161,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "openmodscore-armor",
+      "name": "Ядро OpenMods (Armor)",
+      "author": "OpenMods",
+      "version": "1.0",
+      "category": "other",
+      "tags": [
+        "armor",
+        "other"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Ядро OpenMods (Armor). Из сборки Armor ModPack. Размер: 0.08 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "openmodscore"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 81344,
       "kinds": [
         "mods"
       ]
@@ -5203,13 +5520,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "phantasm-hangarswitcher-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 51432,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-hangarswitcher-armor",
+      "name": "Переключатель ангаров (phantasm, Armor)",
+      "author": "phantasm",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Переключатель ангаров (phantasm, Armor). Из сборки Armor ModPack. Размер: 0.05 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "phantasm-hangarswitcher"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 49108,
       "kinds": [
         "mods"
       ]
@@ -5909,6 +6256,32 @@
       ]
     },
     {
+      "id": "skinner-german-scripts",
+      "name": "Скины: Германия — скрипты",
+      "author": "MT ProTanki",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki. Файлов: 1.",
+      "description": "Скины: Германия — скрипты. Из сборки MT ProTanki. Размер: 31.95 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 33498176,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "skinner-italy",
       "name": "Скины: Италия",
       "author": "MT ProTanki",
@@ -6008,6 +6381,32 @@
       "group": "",
       "diy": false,
       "size": 96409192,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "skinner-russian-scripts",
+      "name": "Скины: Россия — скрипты",
+      "author": "MT ProTanki",
+      "version": "1.0",
+      "category": "visual",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki. Файлов: 1.",
+      "description": "Скины: Россия — скрипты. Из сборки MT ProTanki. Размер: 37.99 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 39834597,
       "kinds": [
         "mods"
       ]
@@ -6548,13 +6947,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "tv-gunmarkscalc-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 264405,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-gunmarkscalc-armor",
+      "name": "Калькулятор отметок 8.0.04 (Armor)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Калькулятор отметок 8.0.04 (Armor). Из сборки Armor ModPack. Размер: 0.25 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "tv-gunmarkscalc"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 263104,
       "kinds": [
         "mods"
       ]
@@ -6716,7 +7145,7 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 5632,
+      "size": 458,
       "kinds": [
         "mods"
       ]
@@ -7424,13 +7853,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "tv-smartequipment-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 311026,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-smartequipment-armor",
+      "name": "Умное снаряжение 8.0.04 (Armor)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Умное снаряжение 8.0.04 (Armor). Из сборки Armor ModPack. Размер: 0.30 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "tv-smartequipment"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 313108,
       "kinds": [
         "mods"
       ]
@@ -7450,13 +7909,43 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "tv-spotted-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
       "size": 52773,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-spotted-armor",
+      "name": "Засвет 8.0.04 (Armor)",
+      "author": "ProTanki",
+      "version": "8.0.04",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Засвет 8.0.04 (Armor). Из сборки Armor ModPack. Размер: 0.05 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "tv-spotted"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 54052,
       "kinds": [
         "mods"
       ]
@@ -7750,6 +8239,32 @@
       ]
     },
     {
+      "id": "ut-announcer-armor",
+      "name": "Объявление урона (UT)",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "hud",
+      "tags": [
+        "armor",
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Объявление урона (UT). Из сборки Armor ModPack. Размер: 0.03 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 34334,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "valberton-usercustomization-v1-2-pt",
       "name": "Кастомизация профиля (Valberton)",
       "author": "valberton",
@@ -7799,6 +8314,32 @@
       "group": "",
       "diy": false,
       "size": 84540,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "voice-overrider-armor",
+      "name": "Перехват озвучки (VoiceOverrider)",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "sound",
+      "tags": [
+        "armor",
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Перехват озвучки (VoiceOverrider). Из сборки Armor ModPack. Размер: 0.02 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 18688,
       "kinds": [
         "mods"
       ]
@@ -8007,6 +8548,32 @@
       "group": "",
       "diy": false,
       "size": 7204049,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wb-auto-claim-clan-reward",
+      "name": "Автосбор клановой награды",
+      "author": "Armor ModPack",
+      "version": "1.0",
+      "category": "qol",
+      "tags": [
+        "armor",
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack. Файлов: 1.",
+      "description": "Автосбор клановой награды. Из сборки Armor ModPack. Размер: 0.00 МБ.",
+      "preview": "",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 4423,
       "kinds": [
         "mods"
       ]

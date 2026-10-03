@@ -9,7 +9,7 @@
   "mirrors": [
     "https://raw.githubusercontent.com/MerinHolt/BEAST/main/site/",
     "https://cdn.jsdelivr.net/gh/MerinHolt/BEAST@main/site/",
-    "https://merinholt.github.io/BEAST/"
+    "https://merinholt.github.io/BEAST/site/"
   ],
   "release": "https://github.com/MerinHolt/BEAST/releases/latest",
   "notes": "",

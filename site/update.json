@@ -1,11 +1,11 @@
 {
-  "packName": "BEAST",
+  "packName": "Outplay™",
   "packVersion": "1.0.0",
   "minGameVersion": "1.45.0.0",
-  "author": "BEAST Team",
+  "author": "Outplay Team",
   "date": "2026-10-03",
-  "mods": 60,
-  "size": 38897611,
+  "mods": 311,
+  "size": 1342335960,
   "mirrors": [
     "https://raw.githubusercontent.com/MerinHolt/BEAST/main/site/",
     "https://cdn.jsdelivr.net/gh/MerinHolt/BEAST@main/site/",

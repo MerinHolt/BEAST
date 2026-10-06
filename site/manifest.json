@@ -9,13 +9,13 @@
   "targetGame": "Мир танков (Lesta Games)",
   "minGameVersion": "1.45.0.0",
   "forumThread": "",
-  "builtAt": "2026-10-05T14:03:39.055Z",
+  "builtAt": "2026-10-06T06:08:34.738Z",
   "builder": "Outplay Build Tool",
   "diyIncluded": false,
   "mods": [
     {
       "id": "me-kurzdor-freecamera-3-1-1",
-      "name": "Свободная камера",
+      "name": "Свободная камера в ангаре",
       "author": "Outplay Team",
       "version": "3.1.1",
       "category": "gameplay",
@@ -42,7 +42,7 @@
     },
     {
       "id": "tv-protanki-autoloader-3-2-10",
-      "name": "Автозарядка",
+      "name": "[NEW] Помощник системы дозаряжания.",
       "author": "Outplay Team",
       "version": "3.2.10",
       "category": "gameplay",
@@ -68,7 +68,7 @@
     },
     {
       "id": "armor-disablestun",
-      "name": "Armor DisableStun",
+      "name": "Отключить эффект оглушения",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "gameplay",
@@ -88,6 +88,302 @@
       "group": "",
       "diy": false,
       "size": 1914,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-combo-green",
+      "name": "[NEW] «Комбо».",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "mt",
+        "aim"
+      ],
+      "summary": "Прицелы из сборки MT ProTanki",
+      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-hardscope-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "gun-marker-white-lesta",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 819941,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-badboy-new",
+      "name": "[NEW] «Плохой мальчик».",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "mt",
+        "aim"
+      ],
+      "summary": "Прицелы из сборки MT ProTanki",
+      "description": "Прицелы из сборки MT ProTanki. Файлов: 2.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 146434,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-deegie-blue",
+      "name": "[NEW] Deegie (а-ля Ghost Recon).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "mt",
+        "aim"
+      ],
+      "summary": "Прицелы из сборки MT ProTanki",
+      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-hardscope-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "gun-marker-white-lesta",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 991577,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-meltymap-green",
+      "name": "[NEW] MeltyMap.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "mt",
+        "aim"
+      ],
+      "summary": "Прицелы из сборки MT ProTanki",
+      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-hardscope-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "gun-marker-white-lesta",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 811547,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-dab97",
+      "name": "Как у Джова (dab97).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "aim"
+      ],
+      "summary": "Прицелы из сборки JovesModPack",
+      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper",
+        "tv-lebwa-crosshairs-strategic"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 560187,
       "kinds": [
         "mods"
       ]
@@ -265,64 +561,6 @@
       ]
     },
     {
-      "id": "crosshair-atotik",
-      "name": "Прицел: Atotik",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "aim"
-      ],
-      "summary": "Прицелы из сборки JovesModPack",
-      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper",
-        "tv-lebwa-crosshairs-strategic"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 555068,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "crosshair-aw-v1",
       "name": "Прицел: Aw V1",
       "author": "Outplay Team",
@@ -378,124 +616,6 @@
       "group": "",
       "diy": false,
       "size": 823146,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-badboy-new",
-      "name": "Прицел: Badboy New",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "mt",
-        "aim"
-      ],
-      "summary": "Прицелы из сборки MT ProTanki",
-      "description": "Прицелы из сборки MT ProTanki. Файлов: 2.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 146434,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-combo-green",
-      "name": "Прицел: Combo Green",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "mt",
-        "aim"
-      ],
-      "summary": "Прицелы из сборки MT ProTanki",
-      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-hardscope-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "gun-marker-white-lesta",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 819941,
       "kinds": [
         "mods"
       ]
@@ -616,181 +736,6 @@
       "group": "",
       "diy": false,
       "size": 729065,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-dab97",
-      "name": "Прицел: Dab97",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "aim"
-      ],
-      "summary": "Прицелы из сборки JovesModPack",
-      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper",
-        "tv-lebwa-crosshairs-strategic"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 560187,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-deegie-blue",
-      "name": "Прицел: Deegie Blue",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "mt",
-        "aim"
-      ],
-      "summary": "Прицелы из сборки MT ProTanki",
-      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-hardscope-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "gun-marker-white-lesta",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 991577,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-demon2957",
-      "name": "Прицел: Demon2957",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "aim"
-      ],
-      "summary": "Прицелы из сборки JovesModPack",
-      "description": "Прицелы из сборки JovesModPack. Файлов: 4.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 418994,
       "kinds": [
         "mods"
       ]
@@ -1146,63 +1091,6 @@
       ]
     },
     {
-      "id": "crosshair-j1mbo",
-      "name": "Прицел: J1mbo",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "aim"
-      ],
-      "summary": "Прицелы из сборки JovesModPack",
-      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-marakasi",
-        "crosshair-meltymap-green",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 830299,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "crosshair-marakasi",
       "name": "Прицел: Marakasi",
       "author": "Outplay Team",
@@ -1256,66 +1144,6 @@
       "group": "",
       "diy": false,
       "size": 206132,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "crosshair-meltymap-green",
-      "name": "Прицел: Meltymap Green",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "sights",
-      "tags": [
-        "mt",
-        "aim"
-      ],
-      "summary": "Прицелы из сборки MT ProTanki",
-      "description": "Прицелы из сборки MT ProTanki. Файлов: 3.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "crosshairs-api-1-1-mt"
-      ],
-      "conflicts": [
-        "crosshair-achilles",
-        "crosshair-atotik",
-        "crosshair-aw-v1",
-        "crosshair-badboy-new",
-        "crosshair-combo-green",
-        "crosshair-cosmic",
-        "crosshair-crystal",
-        "crosshair-dab97",
-        "crosshair-deegie-blue",
-        "crosshair-default",
-        "crosshair-demon2957",
-        "crosshair-destroyer-byryuza",
-        "crosshair-dm-green",
-        "crosshair-giperon-v1",
-        "crosshair-hardscope-v1",
-        "crosshair-harpoon-newwhitelight",
-        "crosshair-ikop3uhbl4",
-        "crosshair-j1mbo",
-        "crosshair-marakasi",
-        "crosshair-neon",
-        "crosshair-octagon",
-        "crosshair-protanki",
-        "crosshair-voin",
-        "crosshair-wowp-byryza",
-        "crosshair-yourevilgenius",
-        "crosshair-zhelya",
-        "crosshair-zx-mini-v2",
-        "gun-marker-white-lesta",
-        "tv-lebwa-crosshairs-arcade",
-        "tv-lebwa-crosshairs-sniper"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 811547,
       "kinds": [
         "mods"
       ]
@@ -1798,7 +1626,7 @@
     },
     {
       "id": "crosshair-default",
-      "name": "Стандартные прицелы",
+      "name": "Стандартный.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "aim",
@@ -1857,8 +1685,180 @@
       ]
     },
     {
+      "id": "crosshair-atotik",
+      "name": "Улучшенный стандартный (от AtotIK).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "aim"
+      ],
+      "summary": "Прицелы из сборки JovesModPack",
+      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper",
+        "tv-lebwa-crosshairs-strategic"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 555068,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-demon2957",
+      "name": "demon2957.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "aim"
+      ],
+      "summary": "Прицелы из сборки JovesModPack",
+      "description": "Прицелы из сборки JovesModPack. Файлов: 4.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-j1mbo",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 418994,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "crosshair-j1mbo",
+      "name": "J1mb0 (как у Муразора).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "sights",
+      "tags": [
+        "aim"
+      ],
+      "summary": "Прицелы из сборки JovesModPack",
+      "description": "Прицелы из сборки JovesModPack. Файлов: 3.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "crosshairs-api-1-1-mt"
+      ],
+      "conflicts": [
+        "crosshair-achilles",
+        "crosshair-atotik",
+        "crosshair-aw-v1",
+        "crosshair-badboy-new",
+        "crosshair-combo-green",
+        "crosshair-cosmic",
+        "crosshair-crystal",
+        "crosshair-dab97",
+        "crosshair-deegie-blue",
+        "crosshair-default",
+        "crosshair-demon2957",
+        "crosshair-destroyer-byryuza",
+        "crosshair-dm-green",
+        "crosshair-giperon-v1",
+        "crosshair-harpoon-newwhitelight",
+        "crosshair-ikop3uhbl4",
+        "crosshair-marakasi",
+        "crosshair-meltymap-green",
+        "crosshair-neon",
+        "crosshair-octagon",
+        "crosshair-protanki",
+        "crosshair-voin",
+        "crosshair-wowp-byryza",
+        "crosshair-yourevilgenius",
+        "crosshair-zhelya",
+        "crosshair-zx-mini-v2",
+        "tv-lebwa-crosshairs-arcade",
+        "tv-lebwa-crosshairs-sniper"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 830299,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "pruszko-responsive-reticle-1-0-4",
-      "name": "Адаптивный прицел",
+      "name": "[NEW] Отзывчивый прицел (1 мс).",
       "author": "Outplay Team",
       "version": "1.0.4",
       "category": "aim",
@@ -1969,6 +1969,32 @@
       ]
     },
     {
+      "id": "armor-aimautofocuscmd",
+      "name": "Автоматический фокус цели при наведении",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "aim",
+      "subcategory": "api",
+      "tags": [
+        "aim"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 4268,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "crosshairs-api-1-1-mt",
       "name": "API прицелов 1.1 (MT)",
       "author": "Outplay Team",
@@ -1991,32 +2017,6 @@
       "group": "",
       "diy": false,
       "size": 69297,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-aimautofocuscmd",
-      "name": "Armor AimAutoFocusCmd",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "aim",
-      "subcategory": "api",
-      "tags": [
-        "aim"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 4268,
       "kinds": [
         "mods"
       ]
@@ -2049,7 +2049,7 @@
     },
     {
       "id": "poliroid-pmod",
-      "name": "PMOD — расширенный интерфейс (Poliroid)",
+      "name": "Комплексная модификация PMOD",
       "author": "Outplay Team",
       "version": "1.81.14",
       "category": "hud",
@@ -2077,8 +2077,34 @@
       ]
     },
     {
+      "id": "battle-messages",
+      "name": "Автосообщения (засвет, урон от арты, тимдамаг).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "useful",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 58445,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "tv-saveshot",
-      "name": "Безопасный выстрел (Safe Shot)",
+      "name": "Предохранитель выстрела",
       "author": "Outplay Team",
       "version": "8.1.01",
       "category": "hud",
@@ -2105,7 +2131,7 @@
     },
     {
       "id": "phantasm-shell-tooltips",
-      "name": "Подсказки снарядов",
+      "name": "Улучшенные подсказки снарядов и орудий.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2130,12 +2156,12 @@
       ]
     },
     {
-      "id": "battle-messages",
-      "name": "Сообщения боя",
+      "id": "me-kurzdor-advancedtankcarousel-0-6-1",
+      "name": "[NEW] Настраиваемый многорядный список танков.",
       "author": "Outplay Team",
-      "version": "1.0",
+      "version": "0.6.1",
       "category": "hud",
-      "subcategory": "useful",
+      "subcategory": "panels",
       "tags": [
         "hud"
       ],
@@ -2150,7 +2176,33 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 58445,
+      "size": 69678,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "me-kurzdor-advancedconsumablespanel-1-3-1",
+      "name": "[NEW] Увеличенные цифры снарядов и таймеров.",
+      "author": "Outplay Team",
+      "version": "1.3.1",
+      "category": "hud",
+      "subcategory": "panels",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 77122,
       "kinds": [
         "mods"
       ]
@@ -2183,7 +2235,7 @@
     },
     {
       "id": "phantasm-info-panel",
-      "name": "Информационная панель (Info Panel)",
+      "name": "Информационная панель",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2209,7 +2261,7 @@
     },
     {
       "id": "damagepanel",
-      "name": "Панель урона",
+      "name": "Панель повреждений",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2235,58 +2287,6 @@
       "group": "",
       "diy": false,
       "size": 593953,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "me-kurzdor-advancedtankcarousel-0-6-1",
-      "name": "Продвинутая карусель танков",
-      "author": "Outplay Team",
-      "version": "0.6.1",
-      "category": "hud",
-      "subcategory": "panels",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 69678,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "me-kurzdor-advancedconsumablespanel-1-3-1",
-      "name": "Продвинутая панель расходников",
-      "author": "Outplay Team",
-      "version": "1.3.1",
-      "category": "hud",
-      "subcategory": "panels",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 77122,
       "kinds": [
         "mods"
       ]
@@ -2520,7 +2520,7 @@
     },
     {
       "id": "gun-marker-white-lesta",
-      "name": "Белый маркер прицела",
+      "name": "Белый крестик.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2561,6 +2561,84 @@
       "group": "",
       "diy": false,
       "size": 382178,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-afkindicator",
+      "name": "Детектор АФК",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 5615,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-roentgendetector",
+      "name": "Детектор засвета рентгеном",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 5323,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-damageindicator",
+      "name": "Дополнение индикатора направления",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 89830,
       "kinds": [
         "mods"
       ]
@@ -2645,8 +2723,8 @@
       ]
     },
     {
-      "id": "izeberg-repair",
-      "name": "Подсказка ремонта (izeberg Repair)",
+      "id": "armor-playerobservers",
+      "name": "Наблюдатель",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2654,20 +2732,70 @@
       "tags": [
         "hud"
       ],
-      "summary": "Подсказывает, когда пора ставить ремонт и что чинить в первую очередь.",
-      "description": "Отмечает критически повреждённые модули и предлагаемое время восстановления. Требует общую библиотеку настроек izeberg.",
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
-      "requires": [
-        "izeberg-modssettingsapi"
-      ],
+      "requires": [],
       "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 39872,
+      "size": 3923,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-spotted",
+      "name": "Оповещение о засвете",
+      "author": "Outplay Team",
+      "version": "8.0.04",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Метки засвета и ухода с радара в бою.",
+      "description": "Показывает, когда вас видят, и когда вы снова в тени. Мод семейства tv.* из общего блока модов комплекта.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 52773,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-contactlimits",
+      "name": "Расширенный черный список (15 тысяч)",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1952,
       "kinds": [
         "mods"
       ]
@@ -2702,7 +2830,7 @@
     },
     {
       "id": "izeberg-spotted",
-      "name": "Уведомления о засвете (izeberg Spotted)",
+      "name": "Уведомление союзников о вашем засвете",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2729,60 +2857,8 @@
       ]
     },
     {
-      "id": "tv-spotted",
-      "name": "Уведомления о засвете (Spotted)",
-      "author": "Outplay Team",
-      "version": "8.0.04",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Метки засвета и ухода с радара в бою.",
-      "description": "Показывает, когда вас видят, и когда вы снова в тени. Мод семейства tv.* из общего блока модов комплекта.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 52773,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-lebwa-clock",
-      "name": "Часы в бою (lebwa)",
-      "author": "Outplay Team",
-      "version": "1.2.00",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки lebwa",
-      "description": "Из сборки lebwa. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 117860,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-afkindicator",
-      "name": "Armor AfkIndicator",
+      "id": "izeberg-repair",
+      "name": "Удобный ремонт модулей по Ctrl",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2790,129 +2866,27 @@
       "tags": [
         "hud"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Подсказывает, когда пора ставить ремонт и что чинить в первую очередь.",
+      "description": "Отмечает критически повреждённые модули и предлагаемое время восстановления. Требует общую библиотеку настроек izeberg.",
       "preview": "preview.jpg",
       "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 5615,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-contactlimits",
-      "name": "Armor ContactLimits",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
+      "requires": [
+        "izeberg-modssettingsapi"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
       "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 1952,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-damageindicator",
-      "name": "Armor DamageIndicator",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 89830,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-playerobservers",
-      "name": "Armor PlayerObservers",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 3923,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-roentgendetector",
-      "name": "Armor RoentgenDetector",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "hud",
-      "subcategory": "indicators",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 5323,
+      "size": 39872,
       "kinds": [
         "mods"
       ]
     },
     {
       "id": "just-damagestickers",
-      "name": "Just DamageStickers",
+      "name": "Цветные маркеры пробития",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -2932,6 +2906,32 @@
       "group": "",
       "diy": false,
       "size": 200588,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-lebwa-clock",
+      "name": "Часы в ангаре и в бою",
+      "author": "Outplay Team",
+      "version": "1.2.00",
+      "category": "hud",
+      "subcategory": "indicators",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки lebwa",
+      "description": "Из сборки lebwa. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 117860,
       "kinds": [
         "mods"
       ]
@@ -2964,7 +2964,7 @@
     },
     {
       "id": "tv-protanki-sessionlog-8-1-01",
-      "name": "Журнал сессии",
+      "name": "[NEW] Детектор угнетения.",
       "author": "Outplay Team",
       "version": "8.1.01",
       "category": "hud",
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "damage-log",
-      "name": "Журнал урона",
+      "name": "Лог урона от GambitER.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -3042,7 +3042,7 @@
     },
     {
       "id": "tv-protanki-lasthits-3-5-06",
-      "name": "Последние попадания",
+      "name": "Последние попадания по танку.",
       "author": "Outplay Team",
       "version": "3.5.06",
       "category": "hud",
@@ -3068,7 +3068,7 @@
     },
     {
       "id": "bounced-damage",
-      "name": "Рикошеты",
+      "name": "Учёт натанкованного урона.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "hud",
@@ -3093,34 +3093,8 @@
       ]
     },
     {
-      "id": "tv-lebwa-battlepoints",
-      "name": "Боевые очки (lebwa)",
-      "author": "Outplay Team",
-      "version": "1.4.04",
-      "category": "hud",
-      "subcategory": "marks",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Из сборки lebwa",
-      "description": "Из сборки lebwa. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 317719,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "tv-reductioninfo",
-      "name": "Информация о редукции (Reduction Info)",
+      "name": "[NEW] Индикатор полного сведения.",
       "author": "Outplay Team",
       "version": "8.1.01",
       "category": "hud",
@@ -3148,36 +3122,34 @@
       ]
     },
     {
-      "id": "tv-protanki-reductioninfo-8-0-04",
-      "name": "Информация о редукции (Reduction Info) 8.0.04",
+      "id": "threemarkstree-master",
+      "name": "[NEW] Процент отметки в дереве исследований.",
       "author": "Outplay Team",
-      "version": "8.0.04",
+      "version": "1.0",
       "category": "hud",
       "subcategory": "marks",
       "tags": [
         "hud"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [
-        "tv-reductioninfo"
-      ],
+      "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 66094,
+      "size": 558940,
       "kinds": [
         "mods"
       ]
     },
     {
       "id": "tv-protanki-mastery-2-7-07",
-      "name": "Мастерство танка",
+      "name": "[NEW] Таблица уровней мастерства и отметок.",
       "author": "Outplay Team",
       "version": "2.7.07",
       "category": "hud",
@@ -3197,6 +3169,32 @@
       "group": "",
       "diy": false,
       "size": 56842,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wn8-battle",
+      "name": "Индикатор WN8.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "hud",
+      "subcategory": "marks",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 72422,
       "kinds": [
         "mods"
       ]
@@ -3229,8 +3227,34 @@
       ]
     },
     {
+      "id": "tv-lebwa-battlepoints",
+      "name": "Панель с ХП команд",
+      "author": "Outplay Team",
+      "version": "1.4.04",
+      "category": "hud",
+      "subcategory": "marks",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Из сборки lebwa (Левша ПЛЮС, без подписки)",
+      "description": "Из сборки lebwa. Файлов: 1. Мод «Левша ПЛЮС», работает без подписки. Функции: Панель с ХП команд, боевые очки.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 317719,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "tv-lebwa-gunmarks",
-      "name": "Отметки попаданий (lebwa)",
+      "name": "Расчет отметок",
       "author": "Outplay Team",
       "version": "1.4.01",
       "category": "hud",
@@ -3282,7 +3306,7 @@
     },
     {
       "id": "tv-protanki-armorresist-8-1-01",
-      "name": "Сопротивление брони",
+      "name": "Счётчик сдержанного урона",
       "author": "Outplay Team",
       "version": "8.1.01",
       "category": "hud",
@@ -3308,53 +3332,29 @@
       ]
     },
     {
-      "id": "threemarkstree-master",
-      "name": "Три отметки за мастерство (ThreeMarksTree)",
+      "id": "tv-protanki-reductioninfo-8-0-04",
+      "name": "Таймер полного сведения",
       "author": "Outplay Team",
-      "version": "1.0",
+      "version": "8.0.04",
       "category": "hud",
       "subcategory": "marks",
       "tags": [
         "hud"
       ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 558940,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "wn8-battle",
-      "name": "WN8 в бою",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "hud",
-      "subcategory": "marks",
-      "tags": [
-        "hud"
+      "conflicts": [
+        "tv-reductioninfo"
       ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 72422,
+      "size": 66094,
       "kinds": [
         "mods"
       ]
@@ -3541,7 +3541,7 @@
     },
     {
       "id": "circle-15m",
-      "name": "Круг 15 м на миникарте",
+      "name": "Круг 15м от танка (по F9).",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "minimap",
@@ -3567,7 +3567,7 @@
     },
     {
       "id": "armor-hangarinterface",
-      "name": "Armor HangarInterface",
+      "name": "Настройка ангара",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -3593,7 +3593,7 @@
     },
     {
       "id": "gold-icons",
-      "name": "Золотые иконки",
+      "name": "Золотые картинки премиумных танков.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -3649,8 +3649,78 @@
       ]
     },
     {
+      "id": "tank-icons-class",
+      "name": "Иконки танков: Минималистичные.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "visual",
+      "subcategory": "icons",
+      "tags": [
+        "visual"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "modpack-protanki-blackspypro-battleatlas",
+        "modpack-protanki-copck-bcb-battleatlas",
+        "modpack-protanki-master-xh-battleatlas",
+        "modpack-protanki-meanmachins-battleatlas",
+        "modpack-protanki-yusha-protanki-battleatlas",
+        "tank-icons-colorful",
+        "tank-icons-realistic",
+        "tank-icons-simple"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 12973815,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tank-icons-realistic",
+      "name": "Иконки танков: Реалистичные.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "visual",
+      "subcategory": "icons",
+      "tags": [
+        "visual"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "modpack-protanki-blackspypro-battleatlas",
+        "modpack-protanki-copck-bcb-battleatlas",
+        "modpack-protanki-master-xh-battleatlas",
+        "modpack-protanki-meanmachins-battleatlas",
+        "modpack-protanki-yusha-protanki-battleatlas",
+        "tank-icons-class",
+        "tank-icons-colorful",
+        "tank-icons-simple"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 13530798,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "tank-icons-simple",
-      "name": "Иконки танков (простые)",
+      "name": "Иконки танков: С подписями.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -3684,43 +3754,8 @@
       ]
     },
     {
-      "id": "tank-icons-realistic",
-      "name": "Иконки танков (реалистичные)",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "visual",
-      "subcategory": "icons",
-      "tags": [
-        "visual"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "modpack-protanki-blackspypro-battleatlas",
-        "modpack-protanki-copck-bcb-battleatlas",
-        "modpack-protanki-master-xh-battleatlas",
-        "modpack-protanki-meanmachins-battleatlas",
-        "modpack-protanki-yusha-protanki-battleatlas",
-        "tank-icons-class",
-        "tank-icons-colorful",
-        "tank-icons-simple"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 13530798,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "tank-icons-colorful",
-      "name": "Иконки танков (цветные)",
+      "name": "Иконки танков: Цветные.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -3749,41 +3784,6 @@
       "group": "",
       "diy": false,
       "size": 13530798,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tank-icons-class",
-      "name": "Иконки танков по классам",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "visual",
-      "subcategory": "icons",
-      "tags": [
-        "visual"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "modpack-protanki-blackspypro-battleatlas",
-        "modpack-protanki-copck-bcb-battleatlas",
-        "modpack-protanki-master-xh-battleatlas",
-        "modpack-protanki-meanmachins-battleatlas",
-        "modpack-protanki-yusha-protanki-battleatlas",
-        "tank-icons-colorful",
-        "tank-icons-realistic",
-        "tank-icons-simple"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 12973815,
       "kinds": [
         "mods"
       ]
@@ -4234,6 +4234,145 @@
       ]
     },
     {
+      "id": "mod-mctcreator-tankmaptextures-2-2-4-256-260906-184628",
+      "name": "Белые корпуса танков на картах",
+      "author": "Outplay Team",
+      "version": "2.2.4.256.260906.184628",
+      "category": "visual",
+      "subcategory": "skins",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 10728160,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "mod-mctcreator-tankcrashtextures-2-2-4-256-260906-184628",
+      "name": "Белые подбитые танки в бою",
+      "author": "Outplay Team",
+      "version": "2.2.4.256.260906.184628",
+      "category": "visual",
+      "subcategory": "skins",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "white-corpses"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 50035036,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "mod-mctcreator-trainmaptextures-2-2-4-256-260906-184628",
+      "name": "Белые поезда и вагоны на картах",
+      "author": "Outplay Team",
+      "version": "2.2.4.256.260906.184628",
+      "category": "visual",
+      "subcategory": "skins",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 11405709,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "mod-mctcreator-trackcrashtextures-2-2-4-256-260906-184628",
+      "name": "Белые сбитые гусеницы в бою",
+      "author": "Outplay Team",
+      "version": "2.2.4.256.260906.184628",
+      "category": "visual",
+      "subcategory": "skins",
+      "tags": [
+        "mt",
+        "visual"
+      ],
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "white-corpses",
+        "white-tracks"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 18185923,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "skinner",
+      "name": "Новый способ отображения с настройками.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "visual",
+      "subcategory": "skins",
+      "tags": [
+        "visual"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 92036,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "tv-protanki-skinner-8-0-03",
       "name": "Скины (ProTanki skinner)",
       "author": "Outplay Team",
@@ -4256,32 +4395,6 @@
       "group": "",
       "diy": false,
       "size": 89074,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "skinner",
-      "name": "Скины техники (skinner)",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "visual",
-      "subcategory": "skins",
-      "tags": [
-        "visual"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 92036,
       "kinds": [
         "mods"
       ]
@@ -4924,121 +5037,8 @@
       ]
     },
     {
-      "id": "mod-mctcreator-trainmaptextures-2-2-4-256-260906-184628",
-      "name": "Текстуры карт поездов (MCT)",
-      "author": "Outplay Team",
-      "version": "2.2.4.256.260906.184628",
-      "category": "visual",
-      "subcategory": "skins",
-      "tags": [
-        "mt",
-        "visual"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 11405709,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "mod-mctcreator-tankmaptextures-2-2-4-256-260906-184628",
-      "name": "Текстуры карт танков (MCT)",
-      "author": "Outplay Team",
-      "version": "2.2.4.256.260906.184628",
-      "category": "visual",
-      "subcategory": "skins",
-      "tags": [
-        "mt",
-        "visual"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 10728160,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "mod-mctcreator-trackcrashtextures-2-2-4-256-260906-184628",
-      "name": "Текстуры разбитых гусениц (MCT)",
-      "author": "Outplay Team",
-      "version": "2.2.4.256.260906.184628",
-      "category": "visual",
-      "subcategory": "skins",
-      "tags": [
-        "mt",
-        "visual"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "white-corpses",
-        "white-tracks"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 18185923,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "mod-mctcreator-tankcrashtextures-2-2-4-256-260906-184628",
-      "name": "Текстуры разбитых танков (MCT)",
-      "author": "Outplay Team",
-      "version": "2.2.4.256.260906.184628",
-      "category": "visual",
-      "subcategory": "skins",
-      "tags": [
-        "mt",
-        "visual"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "white-corpses"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 50035036,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "white-corpses",
-      "name": "Белые останки",
+      "name": "«Белые трупы» уничтоженных танков и вагонов.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -5066,8 +5066,37 @@
       ]
     },
     {
+      "id": "tv-protanki-gundecals",
+      "name": "[NEW] Цветные отметки на ствол.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "visual",
+      "subcategory": "effects",
+      "tags": [
+        "visual"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "gun-decals",
+        "modpack-protanki-three-color-gundecals"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 864405,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "white-tracks",
-      "name": "Белые следы",
+      "name": "Белые сбитые гусеницы.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -5147,64 +5176,6 @@
       ]
     },
     {
-      "id": "phantasm-gun-constraints",
-      "name": "Ограничения угла орудия (Gun Constraints)",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "visual",
-      "subcategory": "effects",
-      "tags": [
-        "visual",
-        "aim"
-      ],
-      "summary": "Показывает границы углов горизонтального наведения орудия.",
-      "description": "Помогает чувствовать пределы поворота башни и не упираться в ограничитель. Взята версия из леста-пакета 1.45.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "phantasm-gunconstraints"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 68635,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-protanki-gundecals",
-      "name": "Следы выстрелов",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "visual",
-      "subcategory": "effects",
-      "tags": [
-        "visual"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "gun-decals",
-        "modpack-protanki-three-color-gundecals"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 864405,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "modpack-protanki-three-color-gundecals",
       "name": "Следы выстрелов (трёхцветные)",
       "author": "Outplay Team",
@@ -5264,8 +5235,37 @@
       ]
     },
     {
+      "id": "phantasm-gun-constraints",
+      "name": "Углы горизонтальной наводки",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "visual",
+      "subcategory": "effects",
+      "tags": [
+        "visual",
+        "aim"
+      ],
+      "summary": "Показывает границы углов горизонтального наведения орудия.",
+      "description": "Помогает чувствовать пределы поворота башни и не упираться в ограничитель. Взята версия из леста-пакета 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "phantasm-gunconstraints"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 68635,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "phantasm-gunconstraints",
-      "name": "Phantasm Gunconstraints",
+      "name": "УГН (углы горизонтальной наводки)",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -5293,7 +5293,7 @@
     },
     {
       "id": "camo-remove",
-      "name": "Удаление камуфляжа",
+      "name": "Отключение камуфляжей и надписей.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "visual",
@@ -5427,6 +5427,32 @@
       ]
     },
     {
+      "id": "armor-silencer",
+      "name": "Глушитель",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "audio",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 6806,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "joves-audio-support",
       "name": "Звук боя (JovesModPack)",
       "author": "Outplay Team",
@@ -5504,6 +5530,32 @@
       "group": "",
       "diy": false,
       "size": 106714,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-soundsprebattlecountdown",
+      "name": "Звук отсчета",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "audio",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 84064,
       "kinds": [
         "mods"
       ]
@@ -5647,6 +5699,32 @@
       ]
     },
     {
+      "id": "armor-soundspecialctrl",
+      "name": "Откл. уникальной озвучки",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "audio",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 2261,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "aslain-mute-tier11-mechanic-effects",
       "name": "Отключение звуков механик 11 уровня (Mute Tier11)",
       "author": "Outplay Team",
@@ -5673,8 +5751,8 @@
       ]
     },
     {
-      "id": "armor-silencer",
-      "name": "Armor Silencer",
+      "id": "armor-soundsbasecapture",
+      "name": "Among Us",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "sound",
@@ -5693,7 +5771,7 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 6806,
+      "size": 1063920,
       "kinds": [
         "mods"
       ]
@@ -5751,17 +5829,17 @@
       ]
     },
     {
-      "id": "armor-soundsbasecapture",
-      "name": "Armor SoundsBaseCapture",
+      "id": "voiceover-maski-lesta",
+      "name": "«Маски-шоу».",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "sound",
-      "subcategory": "audio",
+      "subcategory": "voices",
       "tags": [
         "sound"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
@@ -5771,23 +5849,23 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 1063920,
+      "size": 5389751,
       "kinds": [
         "mods"
       ]
     },
     {
-      "id": "armor-soundspecialctrl",
-      "name": "Armor SoundSpecialCtrl",
+      "id": "voiceover-steelhunter-lesta",
+      "name": "«Стальной охотник».",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "sound",
-      "subcategory": "audio",
+      "subcategory": "voices",
       "tags": [
         "sound"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
@@ -5797,18 +5875,70 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 2261,
+      "size": 7204049,
       "kinds": [
         "mods"
       ]
     },
     {
-      "id": "armor-soundsprebattlecountdown",
-      "name": "Armor SoundsPrebattleCountdown",
+      "id": "voiceover-alinarin-lesta",
+      "name": "Алина Рин.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "sound",
-      "subcategory": "audio",
+      "subcategory": "voices",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 10218440,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "voiceover-stalker-lesta",
+      "name": "Бандиты из S.T.A.L.K.E.R.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "voices",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 12035705,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "armor-voiceactivation",
+      "name": "Голосовая активация",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "voices",
       "tags": [
         "sound"
       ],
@@ -5823,7 +5953,7 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 84064,
+      "size": 3422,
       "kinds": [
         "mods"
       ]
@@ -5859,6 +5989,32 @@
       ]
     },
     {
+      "id": "voiceover-honeybadger-lesta",
+      "name": "Медоед (Honeybadger)",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "voices",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 11087464,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "phantasm-voicemanager",
       "name": "Менеджер голосов",
       "author": "Outplay Team",
@@ -5880,58 +6036,6 @@
       "group": "",
       "diy": false,
       "size": 39523,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "voiceover-alinarin-lesta",
-      "name": "Озвучка: Alinarin",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 10218440,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "voiceover-angelos-lesta",
-      "name": "Озвучка: Angelos",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 14307323,
       "kinds": [
         "mods"
       ]
@@ -6288,32 +6392,6 @@
       ]
     },
     {
-      "id": "voiceover-honeybadger-lesta",
-      "name": "Озвучка: Honeybadger",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 11087464,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "audio-wm-jagged-alliance-rus",
       "name": "Озвучка: Jagged alliance",
       "author": "Outplay Team",
@@ -6341,32 +6419,6 @@
       ]
     },
     {
-      "id": "voiceover-jove-lesta",
-      "name": "Озвучка: Jove",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 19195007,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "audio-wm-korzinich-rus",
       "name": "Озвучка: Korzinich",
       "author": "Outplay Team",
@@ -6389,58 +6441,6 @@
       "group": "",
       "diy": false,
       "size": 13374564,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "voiceover-marmok-lesta",
-      "name": "Озвучка: Marmok",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 24739597,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "voiceover-maski-lesta",
-      "name": "Озвучка: Maski",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 5389751,
       "kinds": [
         "mods"
       ]
@@ -6581,32 +6581,6 @@
       ]
     },
     {
-      "id": "voiceover-stalker-lesta",
-      "name": "Озвучка: Stalker",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 12035705,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "audio-wm-steelhunter-rus",
       "name": "Озвучка: Steelhunter",
       "author": "Outplay Team",
@@ -6629,32 +6603,6 @@
       "group": "",
       "diy": false,
       "size": 8455014,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "voiceover-steelhunter-lesta",
-      "name": "Озвучка: Steelhunter",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "sound",
-      "subcategory": "voices",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 7204049,
       "kinds": [
         "mods"
       ]
@@ -6931,8 +6879,8 @@
       ]
     },
     {
-      "id": "armor-voiceactivation",
-      "name": "Armor VoiceActivation",
+      "id": "voiceover-angelos-lesta",
+      "name": "Gabriel Ange1os",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "sound",
@@ -6940,8 +6888,8 @@
       "tags": [
         "sound"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
@@ -6951,14 +6899,66 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 3422,
+      "size": 14307323,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "voiceover-jove-lesta",
+      "name": "Jove (18+)",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "voices",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 19195007,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "voiceover-marmok-lesta",
+      "name": "Marmok",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "sound",
+      "subcategory": "voices",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 24739597,
       "kinds": [
         "mods"
       ]
     },
     {
       "id": "tv-protanki-enemyannouncer-3-4-08",
-      "name": "Объявление противника",
+      "name": "[NEW] «Светофор» - индикатор опасности врагов.",
       "author": "Outplay Team",
       "version": "3.4.08",
       "category": "sound",
@@ -7093,8 +7093,36 @@
       ]
     },
     {
+      "id": "mcclayn-mtradio-1-0-0",
+      "name": "16. MTRadio - внутриигровое радио.",
+      "author": "Outplay Team",
+      "version": "1.0.0",
+      "category": "sound",
+      "subcategory": "radio",
+      "tags": [
+        "sound"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "poliroid-netradio"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1011426,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
       "id": "poliroid-netradio",
-      "name": "Интернет-радио в ангаре (Net Radio)",
+      "name": "Радио NETradio",
       "author": "Outplay Team",
       "version": "1.1",
       "category": "sound",
@@ -7122,36 +7150,8 @@
       ]
     },
     {
-      "id": "mcclayn-mtradio-1-0-0",
-      "name": "Радио в ангаре",
-      "author": "Outplay Team",
-      "version": "1.0.0",
-      "category": "sound",
-      "subcategory": "radio",
-      "tags": [
-        "sound"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "poliroid-netradio"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 1011426,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "starry-sky",
-      "name": "Звёздное небо (Starry Sky)",
+      "name": "Звездное небо",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "performance",
@@ -7458,7 +7458,7 @@
     },
     {
       "id": "poliroid-frames-limiter",
-      "name": "Ограничитель кадров (Frames Limiter)",
+      "name": "Лимит FPS",
       "author": "Outplay Team",
       "version": "4.0.2",
       "category": "performance",
@@ -7514,7 +7514,7 @@
     },
     {
       "id": "text-replacer",
-      "name": "Замена текста",
+      "name": "Цветные сообщения в чате и логе уничтожений.",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "localization",
@@ -7534,6 +7534,32 @@
       "group": "",
       "diy": false,
       "size": 108094,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "seller",
+      "name": "Инвентаризатор (продажа барахла).",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "qol",
+      "subcategory": "hangar",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 58135,
       "kinds": [
         "mods"
       ]
@@ -7654,7 +7680,7 @@
     },
     {
       "id": "alphasave1-showvehicle",
-      "name": "Показывать танк в ангаре (ShowVehicle)",
+      "name": "Просмотр танков которых нет у вас в ангаре",
       "author": "Outplay Team",
       "version": "1.1.0",
       "category": "qol",
@@ -7679,34 +7705,8 @@
       ]
     },
     {
-      "id": "seller",
-      "name": "Продажник (Seller)",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "qol",
-      "subcategory": "hangar",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 58135,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "armor-vehiclecmwiki",
-      "name": "Armor VehicleCmWiki",
+      "name": "Энциклопедия-wiki",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "qol",
@@ -7726,6 +7726,32 @@
       "group": "",
       "diy": false,
       "size": 4120,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-protanki-battleroyalehelper-8-1-01",
+      "name": "«Стальной Охотник»: автоматическая прокачка и таймер.",
+      "author": "Outplay Team",
+      "version": "8.1.01",
+      "category": "qol",
+      "subcategory": "useful",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 75034,
       "kinds": [
         "mods"
       ]
@@ -7787,12 +7813,12 @@
       ]
     },
     {
-      "id": "tv-protanki-battleroyalehelper-8-1-01",
-      "name": "Помощник Бэттл Рояля",
+      "id": "tv-protanki-statcontrol-1-8-0",
+      "name": "[NEW] Настройка вида статистики из ангара.",
       "author": "Outplay Team",
-      "version": "8.1.01",
+      "version": "1.8.0",
       "category": "qol",
-      "subcategory": "useful",
+      "subcategory": "stats",
       "tags": [
         "qol"
       ],
@@ -7807,7 +7833,91 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 75034,
+      "size": 39691,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "mod-wotstat-1-6-3-4",
+      "name": "[NEW] WotStat - расширенная сессионная статистика.",
+      "author": "Outplay Team",
+      "version": "1.6.3.4",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "wotstat"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 250254,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "poliroid-replaysmanager",
+      "name": "15. Менеджер реплеев.",
+      "author": "Outplay Team",
+      "version": "3.8.5",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "hangar"
+      ],
+      "summary": "Удобный список повторов с фильтрами и быстрым запуском.",
+      "description": "Сортировка по дате, результату и технике, быстрый переход к нужному повтору. Взята версия из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [
+        "poliroid-modslistapi"
+      ],
+      "conflicts": [
+        "me-poliroid-replaysmanager-3-8-9"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 857554,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-lebwa-tournaments",
+      "name": "Взводный мод «Турнир Чака»",
+      "author": "Outplay Team",
+      "version": "1.4.01",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки lebwa (Левша ПЛЮС, без подписки)",
+      "description": "Из сборки lebwa. Файлов: 1. Мод «Левша ПЛЮС», работает без подписки. Функции: Взводный мод «Турнир Чака».",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 182370,
       "kinds": [
         "mods"
       ]
@@ -7835,32 +7945,6 @@
       "group": "",
       "diy": false,
       "size": 553616,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-lebwa-statshistory",
-      "name": "История статистики (lebwa)",
-      "author": "Outplay Team",
-      "version": "1.5.19",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки lebwa",
-      "description": "Из сборки lebwa. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 2879434,
       "kinds": [
         "mods"
       ]
@@ -7924,46 +8008,17 @@
       ]
     },
     {
-      "id": "tv-protanki-gunmarkscalc-8-1-01",
-      "name": "Калькулятор отметок попаданий (GunMarks Calc) 8.1.01",
+      "id": "armor-battleefficiency",
+      "name": "Калькулятор эффективности в бою",
       "author": "Outplay Team",
-      "version": "8.1.01",
+      "version": "1.0",
       "category": "qol",
       "subcategory": "stats",
       "tags": [
         "qol"
       ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "tv-gunmarkscalc",
-        "tv-gunmarkscalc-armor"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 264323,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-protanki-statcontrol-1-8-0",
-      "name": "Контроль статистики",
-      "author": "Outplay Team",
-      "version": "1.8.0",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
@@ -7973,7 +8028,7 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 39691,
+      "size": 11335,
       "kinds": [
         "mods"
       ]
@@ -8006,64 +8061,6 @@
       ]
     },
     {
-      "id": "poliroid-replaysmanager",
-      "name": "Менеджер повторов (Replays Manager)",
-      "author": "Outplay Team",
-      "version": "3.8.5",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "hangar"
-      ],
-      "summary": "Удобный список повторов с фильтрами и быстрым запуском.",
-      "description": "Сортировка по дате, результату и технике, быстрый переход к нужному повтору. Взята версия из локального клиента 1.45.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [
-        "poliroid-modslistapi"
-      ],
-      "conflicts": [
-        "me-poliroid-replaysmanager-3-8-9"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 857554,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "me-poliroid-replaysmanager-3-8-9",
-      "name": "Менеджер повторов (Replays Manager) 3.8.9",
-      "author": "Outplay Team",
-      "version": "3.8.9",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "poliroid-replaysmanager"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 858994,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "me-poliroid-mtreplays-mtrmanager-1-0-1",
       "name": "Менеджер повторов MT",
       "author": "Outplay Team",
@@ -8091,10 +8088,38 @@
       ]
     },
     {
-      "id": "wotxp",
-      "name": "Опыт и прокачка (wotxp)",
+      "id": "me-poliroid-replaysmanager-3-8-9",
+      "name": "Менеджер реплеев",
       "author": "Outplay Team",
-      "version": "1.0",
+      "version": "3.8.9",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "poliroid-replaysmanager"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 858994,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-protanki-gunmarkscalc-8-1-01",
+      "name": "Прогресс отличительных отметок на орудия.",
+      "author": "Outplay Team",
+      "version": "8.1.01",
       "category": "qol",
       "subcategory": "stats",
       "tags": [
@@ -8105,20 +8130,51 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "tv-gunmarkscalc",
+        "tv-gunmarkscalc-armor"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 32155,
+      "size": 264323,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "me-poliroid-battlehits-2-2-5",
+      "name": "Просмотр попаданий",
+      "author": "Outplay Team",
+      "version": "2.2.5",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки Armor ModPack",
+      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "poliroid-battlehits"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 29746519,
       "kinds": [
         "mods"
       ]
     },
     {
       "id": "poliroid-battlehits",
-      "name": "Просмотр попаданий (Battle Hits)",
+      "name": "Просмотр попаданий в ангаре",
       "author": "Outplay Team",
       "version": "2.2.6",
       "category": "qol",
@@ -8147,29 +8203,80 @@
       ]
     },
     {
-      "id": "me-poliroid-battlehits-2-2-5",
-      "name": "Просмотр попаданий (Battle Hits) 2.2.5",
+      "id": "tv-protanki-efficiency-8-1-01",
+      "name": "Расчет боевой эффективности",
       "author": "Outplay Team",
-      "version": "2.2.5",
+      "version": "8.1.01",
       "category": "qol",
       "subcategory": "stats",
       "tags": [
+        "mt",
         "qol"
       ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [
-        "poliroid-battlehits"
-      ],
+      "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 29746519,
+      "size": 94021,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "wotxp",
+      "name": "Расчёт опыта и боёв до следующего умения.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 32155,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-lebwa-statshistory",
+      "name": "Расчет отметок с историей",
+      "author": "Outplay Team",
+      "version": "1.5.19",
+      "category": "qol",
+      "subcategory": "stats",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки lebwa (Левша ПЛЮС, без подписки)",
+      "description": "Из сборки lebwa. Файлов: 1. Мод «Левша ПЛЮС», работает без подписки. Функции: Расчет отметок с историей, Артометр, Статистика в «Натиске».",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 2879434,
       "kinds": [
         "mods"
       ]
@@ -8196,85 +8303,6 @@
       "group": "",
       "diy": false,
       "size": 458,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-lebwa-tournaments",
-      "name": "Турниры (lebwa)",
-      "author": "Outplay Team",
-      "version": "1.4.01",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки lebwa",
-      "description": "Из сборки lebwa. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 182370,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-protanki-efficiency-8-1-01",
-      "name": "Эффективность",
-      "author": "Outplay Team",
-      "version": "8.1.01",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "mt",
-        "qol"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 94021,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "armor-battleefficiency",
-      "name": "Armor BattleEfficiency",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "qol",
-      "subcategory": "stats",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки Armor ModPack",
-      "description": "Из сборки Armor ModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 11335,
       "kinds": [
         "mods"
       ]
@@ -8311,12 +8339,12 @@
       ]
     },
     {
-      "id": "mod-wotstat-1-6-3-4",
-      "name": "WotStat — статистика боёв онлайн 1.6.3.4",
+      "id": "phantasm-equipment-demount",
+      "name": "[NEW] Быстрый демонтаж оборудования.",
       "author": "Outplay Team",
-      "version": "1.6.3.4",
+      "version": "1.0",
       "category": "qol",
-      "subcategory": "stats",
+      "subcategory": "equipment",
       "tags": [
         "qol"
       ],
@@ -8325,15 +8353,121 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 88210,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "panikaxa-quick-demount",
+      "name": "[NEW] Демонтаж из меню оборудования.",
+      "author": "Outplay Team",
+      "version": "2.2.0",
+      "category": "qol",
+      "subcategory": "equipment",
+      "tags": [
+        "hangar"
+      ],
+      "summary": "Снимает снаряжение одной кнопкой без лишних подтверждений.",
+      "description": "Ускоряет перекомплектование между боями. Независимый мод panikaxa.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 148981,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "kurzdor-battleequipment",
+      "name": "[NEW] Отображение оборудования в бою.",
+      "author": "Outplay Team",
+      "version": "3.10.00",
+      "category": "qol",
+      "subcategory": "equipment",
+      "tags": [
+        "hud"
+      ],
+      "summary": "Быстрый доступ к снаряжению и подсказки по его применению в бою.",
+      "description": "Панель снаряжения с понятной индикацией готовности. Установлена версия 3.10.00 из локального клиента 1.45 (вместо 3.6.03 в исходном списке).",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
       "conflicts": [
-        "wotstat"
+        "me-kurzdor-battleequipment",
+        "me-kurzdor-battleequipment-3-11-00",
+        "me-kurzdor-battleequipment-3-6-03"
       ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 250254,
+      "size": 191766,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "pro-recommends",
+      "name": "[NEW] Умное оборудование и полевая модернизация.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "qol",
+      "subcategory": "equipment",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 7908540,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "phantasm-autoreserves",
+      "name": "19. [NEW] Автоматическая активация резервов.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "qol",
+      "subcategory": "equipment",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 66439,
       "kinds": [
         "mods"
       ]
@@ -8367,34 +8501,8 @@
       ]
     },
     {
-      "id": "phantasm-autoreserves",
-      "name": "Авто-резервы",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "qol",
-      "subcategory": "equipment",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 66439,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "kurzdor-autoequipmentreturn",
-      "name": "Автовозврат снаряжения (Kurzdor)",
+      "name": "Автовозврат оборудования",
       "author": "Outplay Team",
       "version": "1.4.1",
       "category": "qol",
@@ -8421,43 +8529,18 @@
       ]
     },
     {
-      "id": "panikaxa-quick-demount",
-      "name": "Быстрый сброс снаряжения (Quick Demount)",
+      "id": "tv-protanki-presetadvisor-1-7-01",
+      "name": "Оборудование и Полевая на Танки",
       "author": "Outplay Team",
-      "version": "2.2.0",
+      "version": "1.7.01",
       "category": "qol",
       "subcategory": "equipment",
       "tags": [
-        "hangar"
-      ],
-      "summary": "Снимает снаряжение одной кнопкой без лишних подтверждений.",
-      "description": "Ускоряет перекомплектование между боями. Независимый мод panikaxa.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 148981,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "pro-recommends",
-      "name": "Рекомендации снаряжения (Pro Recommends)",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "qol",
-      "subcategory": "equipment",
-      "tags": [
+        "mt",
         "qol"
       ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "summary": "Из сборки MT ProTanki",
+      "description": "Из сборки MT ProTanki. Файлов: 1.",
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
@@ -8467,63 +8550,7 @@
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 7908540,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "phantasm-equipment-demount",
-      "name": "Сброс снаряжения",
-      "author": "Outplay Team",
-      "version": "1.0",
-      "category": "qol",
-      "subcategory": "equipment",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 88210,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "kurzdor-battleequipment",
-      "name": "Снаряжение в бою (Kurzdor Battle Equipment)",
-      "author": "Outplay Team",
-      "version": "3.10.00",
-      "category": "qol",
-      "subcategory": "equipment",
-      "tags": [
-        "hud"
-      ],
-      "summary": "Быстрый доступ к снаряжению и подсказки по его применению в бою.",
-      "description": "Панель снаряжения с понятной индикацией готовности. Установлена версия 3.10.00 из локального клиента 1.45 (вместо 3.6.03 в исходном списке).",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "me-kurzdor-battleequipment",
-        "me-kurzdor-battleequipment-3-11-00",
-        "me-kurzdor-battleequipment-3-6-03"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 191766,
+      "size": 369880,
       "kinds": [
         "mods"
       ]
@@ -8620,33 +8647,6 @@
       ]
     },
     {
-      "id": "tv-protanki-presetadvisor-1-7-01",
-      "name": "Советник пресетов",
-      "author": "Outplay Team",
-      "version": "1.7.01",
-      "category": "qol",
-      "subcategory": "equipment",
-      "tags": [
-        "mt",
-        "qol"
-      ],
-      "summary": "Из сборки MT ProTanki",
-      "description": "Из сборки MT ProTanki. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 369880,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
       "id": "tv-smartequipment",
       "name": "Умное снаряжение (Smart Equipment)",
       "author": "Outplay Team",
@@ -8698,6 +8698,60 @@
       "group": "",
       "diy": false,
       "size": 313108,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "valberton-usercustomization-v1-2-pt",
+      "name": "[NEW] Агрегатор стилей.",
+      "author": "Outplay Team",
+      "version": "1.0",
+      "category": "qol",
+      "subcategory": "misc",
+      "tags": [
+        "qol"
+      ],
+      "summary": "Из сборки JovesModPack",
+      "description": "Из сборки JovesModPack. Файлов: 1.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 1424969,
+      "kinds": [
+        "mods"
+      ]
+    },
+    {
+      "id": "tv-randomtank",
+      "name": "[NEW] Случайный выбор танка в бой.",
+      "author": "Outplay Team",
+      "version": "8.1.01",
+      "category": "qol",
+      "subcategory": "misc",
+      "tags": [
+        "hangar"
+      ],
+      "summary": "Подбирает случайную пригодную для боя машину из ангарa.",
+      "description": "Ускоряет вход в бой, если решение о технике не принципиально. Доступна версия 8.1.01 из локального клиента 1.45.",
+      "preview": "preview.jpg",
+      "previews": [],
+      "requires": [],
+      "conflicts": [
+        "tv-protanki-randomtank-8-0-04"
+      ],
+      "default": false,
+      "recommended": false,
+      "hidden": false,
+      "group": "",
+      "diy": false,
+      "size": 44918,
       "kinds": [
         "mods"
       ]
@@ -8757,64 +8811,10 @@
       ]
     },
     {
-      "id": "valberton-usercustomization-v1-2-pt",
-      "name": "Кастомизация профиля (Valberton)",
+      "id": "armor-incognito",
+      "name": "Инкогнито",
       "author": "Outplay Team",
       "version": "1.0",
-      "category": "qol",
-      "subcategory": "misc",
-      "tags": [
-        "qol"
-      ],
-      "summary": "Из сборки JovesModPack",
-      "description": "Из сборки JovesModPack. Файлов: 1.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 1424969,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-randomtank",
-      "name": "Случайный танк для боя (Random Tank)",
-      "author": "Outplay Team",
-      "version": "8.1.01",
-      "category": "qol",
-      "subcategory": "misc",
-      "tags": [
-        "hangar"
-      ],
-      "summary": "Подбирает случайную пригодную для боя машину из ангарa.",
-      "description": "Ускоряет вход в бой, если решение о технике не принципиально. Доступна версия 8.1.01 из локального клиента 1.45.",
-      "preview": "preview.jpg",
-      "previews": [],
-      "requires": [],
-      "conflicts": [
-        "tv-protanki-randomtank-8-0-04"
-      ],
-      "default": false,
-      "recommended": false,
-      "hidden": false,
-      "group": "",
-      "diy": false,
-      "size": 44918,
-      "kinds": [
-        "mods"
-      ]
-    },
-    {
-      "id": "tv-protanki-randomtank-8-0-04",
-      "name": "Случайный танк для боя (Random Tank) 8.0.04",
-      "author": "Outplay Team",
-      "version": "8.0.04",
       "category": "qol",
       "subcategory": "misc",
       "tags": [
@@ -8825,22 +8825,20 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [
-        "tv-randomtank"
-      ],
+      "conflicts": [],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 46678,
+      "size": 8818,
       "kinds": [
         "mods"
       ]
     },
     {
       "id": "armor-accountsmanager",
-      "name": "Armor AccountsManager",
+      "name": "Менеджер аккаунтов",
       "author": "Outplay Team",
       "version": "1.0",
       "category": "qol",
@@ -8865,10 +8863,10 @@
       ]
     },
     {
-      "id": "armor-incognito",
-      "name": "Armor Incognito",
+      "id": "tv-protanki-randomtank-8-0-04",
+      "name": "Рандомный танк",
       "author": "Outplay Team",
-      "version": "1.0",
+      "version": "8.0.04",
       "category": "qol",
       "subcategory": "misc",
       "tags": [
@@ -8879,13 +8877,15 @@
       "preview": "preview.jpg",
       "previews": [],
       "requires": [],
-      "conflicts": [],
+      "conflicts": [
+        "tv-randomtank"
+      ],
       "default": false,
       "recommended": false,
       "hidden": false,
       "group": "",
       "diy": false,
-      "size": 8818,
+      "size": 46678,
       "kinds": [
         "mods"
       ]
